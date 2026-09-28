@@ -1,0 +1,11 @@
+App(
+    appid="retekess_rx_monitor",
+    name="Retekess Monitor",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_rx_monitor_app",
+    stack_size=6 * 1024,
+    fap_category="Sub-GHz",
+    fap_version="0.2",
+    fap_icon="retekess_rx_monitor.png",
+    fap_description="Experimental CH18/CH19/CHS monitor and tested CH19 All Off replay",
+)

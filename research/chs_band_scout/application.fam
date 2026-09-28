@@ -1,0 +1,1 @@
+App(appid="retekess_chs_band_scout", name="Retekess CHS Band Scout", apptype=FlipperAppType.EXTERNAL, entry_point="retekess_chs_band_scout_app", stack_size=6*1024, fap_category="Sub-GHz", fap_icon="retekess_chs_band_scout.png", fap_description="Read-only RSSI scout of normal and candidate CHS centers")

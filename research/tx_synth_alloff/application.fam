@@ -1,0 +1,9 @@
+App(
+    appid="retekess_tx_synth_alloff_test",
+    name="Retekess Synth AllOff Test",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_synth_alloff_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+    fap_description="Bounded low-power synthetic AllOff for own receiver test",
+)

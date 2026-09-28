@@ -1,0 +1,1 @@
+App(appid="retekess_chs_carrier_to16_probe", name="Retekess CHS to16", apptype=FlipperAppType.EXTERNAL, entry_point="retekess_chs_carrier_to16_probe_app", stack_size=6*1024, fap_category="Sub-GHz", fap_icon="retekess_chs_carrier_to16_probe.png", fap_description="Read-only GDO0 CHS capture targeting CH16")

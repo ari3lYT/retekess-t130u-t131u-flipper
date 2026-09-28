@@ -1,0 +1,17 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="retekess_demod_probe",  # Must be unique
+    name="Retekess Demod Probe",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_demod_probe_app",
+    stack_size=6 * 1024,
+    fap_category="Sub-GHz",
+    # Optional values
+    # fap_version="0.1",
+    fap_icon="retekess_demod_probe.png",  # 10x10 1-bit PNG
+    fap_description="Read-only CC1101 demodulator sampling experiment",
+    # fap_author="J. Doe",
+    # fap_weburl="https://github.com/user/retekess_demod_probe",
+    fap_icon_assets="images",  # Image assets to compile for this application
+)

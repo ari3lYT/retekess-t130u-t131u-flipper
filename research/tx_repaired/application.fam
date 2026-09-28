@@ -1,0 +1,8 @@
+App(
+    appid="retekess_tx_repaired_test",
+    name="Retekess Repaired TX Test",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_repaired_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+)

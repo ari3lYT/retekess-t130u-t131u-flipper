@@ -1,0 +1,8 @@
+App(
+    appid="retekess_tx_chs19_synth",
+    name="Retekess CHS19 Synth",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_recording_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+)

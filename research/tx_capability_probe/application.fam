@@ -1,0 +1,1 @@
+App(appid="retekess_tx_capability_probe",name="Retekess TX Capability",apptype=FlipperAppType.EXTERNAL,entry_point="retekess_tx_capability_probe_app",stack_size=2*1024,fap_category="Sub-GHz",fap_icon="tx_capability.png",fap_description="Read-only query of configured TX frequency permissions")

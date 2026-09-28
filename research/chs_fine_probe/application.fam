@@ -1,0 +1,1 @@
+App(appid="retekess_chs_fine_probe", name="Retekess CHS Fine", apptype=FlipperAppType.EXTERNAL, entry_point="retekess_chs_fine_probe_app", stack_size=6*1024, fap_category="Sub-GHz", fap_icon="retekess_chs_fine_probe.png", fap_description="Read-only fine RSSI sweep during CHS")

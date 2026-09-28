@@ -1,0 +1,9 @@
+App(
+    appid="retekess_tx_chs18_test",
+    name="Retekess CHS18 Test",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_chs18_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+    fap_description="Bounded low-power CHS18 replay for own receiver test",
+)

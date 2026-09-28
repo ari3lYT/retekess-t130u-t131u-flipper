@@ -1,0 +1,9 @@
+App(
+    appid="retekess_tx_voice_test",
+    name="Retekess Normal TX Test",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_voice_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+    fap_description="Bounded replay of a captured CH19 normal frame for own receiver test",
+)

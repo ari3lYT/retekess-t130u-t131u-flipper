@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" role="img" aria-label="Measured Retekess radio frame structure">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1426"/><stop offset="1" stop-color="#152b43"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1200" height="370" rx="24" fill="url(#bg)"/>
+  <text x="48" y="62" fill="#f4f8fc" font-family="Arial,sans-serif" font-size="31" font-weight="700">T130U / T131U radio frame</text>
+  <text x="49" y="93" fill="#acc7d9" font-family="Arial,sans-serif" font-size="17">Measured bit positions · approximately 250 kbit/s GFSK · one EU kit</text>
+  <g filter="url(#shadow)" font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="48" y="146" width="180" height="112" rx="12" fill="#42b4ca"/>
+    <rect x="232" y="146" width="58" height="112" rx="12" fill="#73869b"/>
+    <rect x="294" y="146" width="484" height="112" rx="12" fill="#53b68a"/>
+    <rect x="782" y="146" width="170" height="112" rx="12" fill="#f2bd62"/>
+    <rect x="956" y="146" width="196" height="112" rx="12" fill="#e78283"/>
+    <g fill="#081e2e" font-size="19" font-weight="700">
+      <text x="138" y="196">CHANNEL</text><text x="138" y="222">MARKER</text>
+      <text x="261" y="204">1</text>
+      <text x="536" y="196">G.711 A-law AUDIO</text><text x="536" y="222">62 bytes</text>
+      <text x="867" y="196">SERVICE</text><text x="867" y="222">16 bits</text>
+      <text x="1054" y="196">CRC-16</text><text x="1054" y="222">AUG-CCITT</text>
+    </g>
+  </g>
+  <g fill="#afc7d7" font-family="Arial,sans-serif" font-size="16" text-anchor="middle">
+    <text x="138" y="286">bits 0–31</text><text x="261" y="286">32</text>
+    <text x="536" y="286">bits 33–528</text><text x="867" y="286">529–544</text>
+    <text x="1054" y="286">545–560</text>
+  </g>
+  <text x="48" y="334" fill="#d7e9f2" font-family="Arial,sans-serif" font-size="16">CRC covers bits 33–544  •  0x0000 normal  •  0x7777 All Off  •  0x11xx CHS target</text>
+</svg>

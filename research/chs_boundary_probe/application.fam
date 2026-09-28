@@ -1,0 +1,1 @@
+App(appid="retekess_chs_boundary_probe", name="Retekess CHS Boundary", apptype=FlipperAppType.EXTERNAL, entry_point="retekess_chs_boundary_probe_app", stack_size=6*1024, fap_category="Sub-GHz", fap_icon="retekess_chs_boundary_probe.png", fap_description="Read-only high duty cycle GDO0 bit capture at CH18")

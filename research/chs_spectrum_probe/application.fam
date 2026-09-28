@@ -1,0 +1,1 @@
+App(appid="retekess_chs_spectrum_probe", name="Retekess CHS Spectrum", apptype=FlipperAppType.EXTERNAL, entry_point="retekess_chs_spectrum_probe_app", stack_size=6*1024, fap_category="Sub-GHz", fap_icon="retekess_chs_spectrum_probe.png", fap_description="Read-only 19-channel RSSI survey during CHS")

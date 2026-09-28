@@ -1,0 +1,1 @@
+App(appid="retekess_chs_carrier_reverse_probe", name="Retekess CHS Carrier Reverse", apptype=FlipperAppType.EXTERNAL, entry_point="retekess_chs_carrier_reverse_probe_app", stack_size=6*1024, fap_category="Sub-GHz", fap_icon="retekess_chs_carrier_reverse_probe.png", fap_description="Read-only GDO0 sampling on observed CHS carrier, reverse direction")

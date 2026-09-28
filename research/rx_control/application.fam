@@ -1,0 +1,11 @@
+App(
+    appid="retekess_rx_control",
+    name="Retekess RX Control",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_rx_monitor_app",
+    stack_size=6 * 1024,
+    fap_category="Sub-GHz",
+    fap_version="0.6",
+    fap_icon="retekess_rx_monitor.png",
+    fap_description="CH1/CH17/CH18/CH19/CHS RX and CH1/CH18/CH19/All Off TX",
+)

@@ -1,0 +1,9 @@
+App(
+    appid="retekess_tx_replay_test",
+    name="Retekess TX Replay Test",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_replay_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+    fap_description="Bounded low-power replay of one observed AllOff frame for own receiver test",
+)

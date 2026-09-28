@@ -1,0 +1,8 @@
+App(
+    appid="retekess_packet_capture_256",
+    name="Retekess Packet Capture 256",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_packet_capture_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+)

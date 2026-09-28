@@ -1,0 +1,8 @@
+App(
+    appid="retekess_tx_synth_alloff_crc",
+    name="Retekess TX Synth AllOff CRC",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="retekess_tx_recording_test_app",
+    stack_size=4096,
+    fap_category="Sub-GHz",
+)
